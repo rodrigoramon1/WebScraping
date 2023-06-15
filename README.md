@@ -22,15 +22,31 @@ Navigation to the NVD website:
 Use the driver's get() method to open the NVD website (https://nvd.nist.gov/).
 Filling in the search field:
 
-Locate the search field element on the NVD website using the find_element_by_id() method or an appropriate selector.
-Utilize the send_keys() method to enter the desired search terms.
-Submitting the search form:
+This project automatic 
 
-Use the submit() method to submit the search form after filling in the search field.
-Handling the results:
+Prerequisites
+What things you need to install the software and how to install them
 
-Utilize Selenium's functions to locate relevant elements in the search results and extract the desired information.
-This may include finding links, retrieving text, extracting details for each vulnerability found, among others.
-Closing the driver:
+Python 3.11
+chromedriver
+chrome (you can use another browser)
+Some Python libraries following
+Installing
+A step by step series of examples that tell you how to get a development env running
 
-After completing the search and extracting the necessary information, close the Selenium driver using the quit() method.
+Install the following Python libraries:
+requests2 - Requests is the only Non-GMO HTTP library for Python, safe for human consumption;
+pandas - A great Python Data Analysis Library;
+*lxml - Library for processing XML and HTML;
+selenium - An API to write functional/acceptance tests using Selenium WebDriver.
+Time- time
+
+Necessary user SMTP.
+
+Authors:
+Rodrigo Ramon
+Carlos Renato Oliveira
+Marcos Souza
+Almir Souza
+
+
